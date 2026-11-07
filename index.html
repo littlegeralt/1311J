@@ -106,6 +106,15 @@ body.t-dest .lbl{color:#ff7f7f}
 .card.locked{opacity:.6;cursor:default;pointer-events:none;border-color:#555}
 .card.locked .hid{display:none !important}
 
+/* FONTE BONITA PARA O TEXTO DAS CARTAS */
+.card .hid {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #d8e6ff;
+  letter-spacing: 0.3px;
+}
+
 .playlist-art{position:relative;margin:20px 0;padding:30px 20px;text-align:center;background:linear-gradient(135deg,rgba(255,0,128,.2),rgba(122,0,204,.2));border:3px solid #ff0080;clip-path:polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%);cursor:pointer;transition:.3s;text-decoration:none;color:#fff;display:block}
 .playlist-art:hover{background:linear-gradient(135deg,rgba(255,0,128,.4),rgba(122,0,204,.4));transform:scale(1.02)}
 .playlist-art:active{transform:scale(.98)}
@@ -199,7 +208,7 @@ body.t-dest .audio-indicator{color:#ff3333;border-color:#ff3333}
 </div>
 
 <script>
-/* ===== CONFIGURAÇÕES ===== */
+/* ===== CONFIGURAÇÕES E TEXTOS ATUALIZADOS ===== */
 const CONFIG = {
   nome: "Jiulha",
   inicio: "2026-07-30",
@@ -219,14 +228,14 @@ const CONFIG = {
   cartas: [
     { titulo: "Para você", data: "13/11", texto: "Em Persona, o mundo é feito de laços, e a força deles vem de quem luta para mantê-los. Nunca imaginei que criaria um ao acaso num grupo com mensagens curtas que respondi de madrugada. Eu poderia nunca ter respondido, mas talvez ter respondido tenha nos levado até aqui. Existem pessoas que aparecem do nada e mudam tudo. Cada conversa e cada momento sobe um nível desse vínculo, e eu quero chegar ao máximo com você. Feliz aniversário, Jiulha 🎂." },
     { titulo: "06/11", data: "06/11", texto: "No começo estava meio um pé atrás. Não sei o que eu pensava, mas havia um certo receio de tentar algo novo e me machucar mais uma vez." },
-    { titulo: "07/11", data: "07/11", texto: "Depois de alguns dias conversando sinto que essa minha guarda foi abaixando, apesar do meu receio, senti que não deveria deixar isso me controlar." },
-    { titulo: "08/11", data: "08/11", texto: "A gente começou a namorar, no começo eu ficava pensando se era realmente a escolha certa para mim e para você." },
-    { titulo: "09/11", data: "09/11", texto: "Eu sempre achei muito engraçado o fato de você jogar as coisas mais idiotas comigo." },
-    { titulo: "10/11", data: "10/11", texto: "O tempo não espera. Conforme tudo passou, senti que comecei a me soltar mais com você." },
-    { titulo: "11/11", data: "11/11", texto: "Os presentes de aniversário que você me deu eu na verdade nem esperava, se você não tivesse me dado nada provavelmente eu nem me importaria, nem eu estava animado, mas você decidiu ainda assim gastar seu tempo para fazer aquelas cartas para mim, assim como perdeu tempo fazendo carta de awebo." },
-    { titulo: "12/11", data: "12/11", texto: "Às vezes para mim é exaustivo. Eu me sinto cansado muito rápido, começo a oscilar meu humor. Penso demais e não entendo o porque. Mas sempre estou buscando fazer tudo que posso para ficar melhor e te dar o melhor de mim, apesar de eu pensar demais e ficar calado sobre muita coisa, mas é o meu jeito, algumas coisas não tenho força nenhuma para falar, simplesmente não sai, mas sei que devo continuar tentando e tentando melhorar. Antes talvez fosse apenas por mim, mas agora diria que é por nós." }
+    { titulo: "07/11", data: "07/11", texto: "Depois de alguns dias conversando, senti minha guarda ir baixando. Apesar do receio, percebi que não devia deixar isso me controlar. Sinto que suas brincadeiras me ajudaram nisso. Esquecer tudo me faz ficar bem." },
+    { titulo: "08/11", data: "08/11", texto: "A gente começou a namorar, e no começo eu ficava me perguntando se era a escolha certa para mim e para você. Hoje eu sei que foi." },
+    { titulo: "09/11", data: "09/11", texto: "Eu sempre achei muito engraçado o fato de você jogar as coisas mais idiotas comigo. São esses momentos bobos que fazem eu me sentir à vontade ao seu lado. Espero que tenha mais desses momentos." },
+    { titulo: "10/11", data: "10/11", texto: "O tempo não espera. Conforme tudo foi passando, fui me soltando mais com você, e hoje consigo ser eu mesmo sem medo." },
+    { titulo: "11/11", data: "11/11", texto: "Eu nem esperava os presentes de aniversário. Se você não tivesse me dado nada, eu provavelmente nem me importaria, e eu nem estava animado. Mas você decidiu gastar seu tempo comigo mesmo assim, fez aquelas cartas e se dedicou até fazer a carta de awebo." },
+    { titulo: "12/11", data: "12/11", texto: "Às vezes tudo é exaustivo para mim. Me sinto cansado muito rápido, meu humor oscila, e penso demais sem entender o porquê. Fico calado sobre muita coisa, e algumas vezes não tenho força nenhuma para falar, simplesmente não sai. É o meu jeito, mas quero que você saiba que estou sempre tentando fazer tudo que posso para melhorar e te dar o melhor de mim. Antes talvez fosse só por mim, mas agora é por nós. E é por isso que eu escolho continuar ao seu lado." }
   ],
-  surpresa: "Novo nível de vínculo desbloqueado: eu prometo te dar muito mais do que já posso oferecer."
+  surpresa: "Novo nível de vínculo desbloqueado: eu prometo te dar muito mais do que já posso oferecer. Espero em algum momento ter um dia apenas nosso. ❤"
 };
 
 const IMAGENS = [
